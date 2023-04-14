@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Signup-DailyUiChalenge</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="signup-box">
+			<div class="image-side">
+				<img src="https://images.unsplash.com/photo-1542611890-59dc3fb388fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="">
+			</div>
+			<div class="form-side">
+				<div class="title">
+					<h2>Let's Join to The Club!</h2>
+					<p>"Strumming the Melodies of Life"</p>
+				</div>
+				<div class="form">
+					<form action="#" class="form-list">
+						<div class="name">
+							<input type="text" placeholder="Full Name">
+							<input type="text" placeholder="Email">
+						</div>
+
+						<div class="experience">
+							<fieldset>
+							<legend>How long have you been playing guitar?</legend>
+							<div class="exp-level">
+								<div class="beginer">
+									<input type="radio" id="beginer" name="experience" checked>
+									<label for="beginer">Beginer</label>
+								</div>
+								<div class="intermediate">
+									<input type="radio" id="intermediate" name="experience">
+									<label for="intermediate">Intermediate</label>
+								</div>
+								<div class="advaced">
+									<input type="radio" id="advanced" name="experience">
+									<label for="advanced">Advanced</label>
+								</div>
+							</div>
+							</fieldset>
+						</div>
+
+						<div class="genre">
+							<fieldset>
+							<legend>What is your favorite music genre?</legend>
+								<div class="all-genre">
+									<div class="pop">
+										<input type="radio" id="pop" name="genre" checked>
+										<label for="pop">Pop</label>
+									</div>
+									<div class="rock">
+										<input type="radio" id="rock" name="genre">
+										<label for="rock">Rock</label>
+									</div>
+									<div class="jazz">
+										<input type="radio" id="jazz" name="genre">
+										<label for="jazz">Jazz</label>
+									</div>
+									<div class="other">
+										<input type="radio" id="other" name="genre">
+										<label for="other">Other</label>
+									</div>
+								</div>
+							</fieldset>
+						</div>
+
+						<div class="reasons">
+							<label for="reasons">Write down your reasons for joining the guitar club:</label>
+							<textarea id="reasons" name="reasons" rows="3"></textarea>
+						</div>
+						<div class="submit">
+							<div class="agreement">
+								<input id="agreement" type="checkbox">
+								<label for="agreement">I agree to the terms and conditions!</label>
+							</div>
+							<button type="submit" value="submit">Sign Up</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>										
+</body>
+</html>
